@@ -4,7 +4,7 @@ return [
 
     'default' =>
     [
-        'logo_image' => "assets-cms/logo-light.png",
+        'logo_image' => "assets-cms/logo-light.jpeg",
         'favicon' => "assets-cms/favicon.ico"
     ],
     'error' =>
