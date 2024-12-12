@@ -18,7 +18,7 @@
                             <h5 class="wow cssanimation fadeInBottom">Join Us Today</h5>
                             <h1 class="wow cssanimation leFadeInRight sequence">RATYM</h1>
                             <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
+                            <a href="#" class="border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
                             <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                         <div class="slider-text">
                             <h1 class="wow cssanimation fadeInTop" data-wow-delay="1s" data-wow-duration="800ms">Together we  <br>can make a Difference</h1>
                             <p class="wow cssanimation fadeInBottom" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
+                            <a href="#" class=" border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
                             <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                             <h5 class="wow cssanimation fadeInBottom">Join Us Today</h5>
                             <h1 class="wow cssanimation lePushReleaseFrom sequence" data-wow-delay="1s">Give a little. Change a lot.</h1>
                             <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
+                            <a href="#" class="border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
                             <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
                         </div>
                     </div>
@@ -100,61 +100,65 @@
                     <div class="col-md-3 xs-padding">
                         <div class="causes-content">
                            <div class="causes-thumb">
-                                <img src="{{ asset('assets-frontend/img/causes-1.jpg')}}" alt="causes">
-                                <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                                <img src="{{ asset('assets-frontend/img/social.jpg')}}" alt="causes">
+                                
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="wow cssanimation fadeInLeft">25%</span></div>
                                 </div>
                            </div>
                             <div class="causes-details">
                                 <h3>Social</h3>
-                                <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
                         </div>
                     </div><!-- /Causes-1 -->
                     <div class="col-md-3 xs-padding">
                         <div class="causes-content">
                            <div class="causes-thumb">
-                                <img src="{{ asset('assets-frontend/img/causes-2.jpg')}}" alt="causes">
-                                <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                                <img src="{{ asset('assets-frontend/img/cultural.jpg')}}" alt="causes">
+                               
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="wow cssanimation fadeInLeft">45%</span></div>
                                 </div>
                            </div>
                             <div class="causes-details">
                                 <h3>Cultural​</h3>
-                                <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
                         </div>
                     </div><!-- /Causes-2 -->
                     <div class="col-md-3 xs-padding">
                         <div class="causes-content">
                            <div class="causes-thumb">
-                                <img src="{{ asset('assets-frontend/img/causes-3.jpg')}}" alt="causes">
-                                <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                                <img src="{{ asset('assets-frontend/img/education.jpg')}}" alt="causes">
+                                
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="wow cssanimation fadeInLeft">75%</span></div>
                                 </div>
                            </div>
                             <div class="causes-details">
                                 <h3>Education</h3>
-                                <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
                         </div>
                     </div><!-- /Causes-3 -->
                     <div class="col-md-3 xs-padding">
                         <div class="causes-content">
                            <div class="causes-thumb">
-                                <img src="{{ asset('assets-frontend/img/causes-3.jpg')}}" alt="causes">
-                                <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                                <img src="{{ asset('assets-frontend/img/empowerment.jpg')}}" alt="causes">
+                               
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="wow cssanimation fadeInLeft">75%</span></div>
                                 </div>
                            </div>
                             <div class="causes-details">
                                 <h3>Woman Empowerment</h3>
-                                <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
                         </div>
                     </div><!-- /Causes-3 -->
                 </div>
@@ -175,15 +179,15 @@
                     <div class="col-md-8 xs-padding">
                         <div class="about-wrap row">
                             <div class="col-md-6 xs-padding">
-                                <img src="{{ asset('assets-frontend/img/history.jpg')}}" alt="about-thumb">
+                                <img src="{{ asset('assets-frontend/img/our-mission.png')}}" alt="about-thumb">
                                 <h3>Our Mission</h3>
-                                <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                                 <a href="#" class="default-btn">Read More</a>
                             </div>
                             <div class="col-md-6 xs-padding">
-                                <img src="{{ asset('assets-frontend/img/mission.jpg')}}" alt="about-thumb">
+                                <img src="{{ asset('assets-frontend/img/our-vision.png')}}" alt="about-thumb">
                                 <h3>Our Vision</h3>
-                                <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 <a href="#" class="default-btn">Read More</a>
                             </div>
                         </div>

@@ -3,7 +3,7 @@
         <div class="widget-wrap row">
             <div class="col-md-4 xs-padding">
                 <div class="widget-content">
-                    <img src="{{ asset('assets-frontend/img/logo-light.png') }}" alt="logo">
+                    <div class="footer-logo"><img src="{{ asset('assets-frontend/img/logo.png') }}" alt="logo"></div>
                     <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor</p>
                     <ul class="social-icon">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
