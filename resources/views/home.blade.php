@@ -208,8 +208,8 @@
                                 <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="wow cssanimation fadeInLeft">35%</span></div>
                             </div>
                             <div class="donation-box">
-                                <h3><i class="ti-bar-chart"></i>Goal: $450000</h3>
-                                <h3><i class="ti-thumb-up"></i>Raised: $55000</h3>
+                                <h3><i class="ti-bar-chart"></i>Goal: ₹450000</h3>
+                                <h3><i class="ti-thumb-up"></i>Raised: ₹55000</h3>
                             </div>
                             <a href="#" class="default-btn">Donate Now</a>
                         </div>
@@ -294,7 +294,7 @@
                 <ul class="row counters">
                     <li class="col-md-3 col-sm-6 sm-padding">
                         <div class="counter-content">
-                            <i class="ti-money"></i>
+                            <i>₹</i>
                             <h3 class="counter">85389</h3>
                             <h4 class="text-white">Money Donated</h4>
                         </div>

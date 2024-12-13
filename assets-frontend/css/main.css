@@ -102,6 +102,7 @@ ul{
 p{
     font-size: 17px;
     margin-bottom: 15px;
+    margin-top: 4px;
 }
 a{  font-family: "Jost",sans-serif;
 }
@@ -413,7 +414,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 #mainmenu li{
     position: relative;
-    padding-left: 20px;
+    padding-left: 30px;
     display: inline-block;
     text-align: left;
 }
@@ -664,7 +665,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .promo-content{
     padding: 40px 30px;
-    border-right: 1px dashed #ddd;
+    border-right: 1px solid #e48b1529;
 }
 .promo-content h3{
     font-size: 22px;
@@ -717,13 +718,13 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     overflow: inherit;
 }
 .causes-thumb .progress .progress-bar{
-    background-color: #28a745;
+    background-color: #e48b15;
     position: relative;
 }
 .causes-thumb .progress .progress-bar span{
     position: absolute;
     display: block;
-    background-color: #28a745;
+    background-color: #550d65;
     right: -2px;
     top: -10px;
     height: 30px;
@@ -741,7 +742,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     left: -10px;
     top: -10px;
     border-radius: 50%;
-    border: 10px solid #28a7458f;
+    border: 10px solid #e48b158c;
 }
 .causes-details{
     background-color: #fff;
@@ -885,14 +886,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     margin-bottom: 40px;
 }
 .campaigns-wrap .progress .progress-bar{
-    background-color: #28a745;
+    background-color: #e38b15;
     position: relative;
     border-radius: 30px;
 }
 .campaigns-wrap .progress .progress-bar span{
     position: absolute;
     display: block;
-    background-color: #28a745;
+    background-color: #550d65;
     right: -2px;
     top: -10px;
     height: 30px;
@@ -910,7 +911,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     left: -10px;
     top: -10px;
     border-radius: 50%;
-    border: 10px solid #28a7458f;
+    border: 10px solid #e48b158c;
 }
 
 .campaigns-wrap .donation-box h3{
@@ -948,7 +949,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .video-wrap .play a{
     color: #fff;
     display: inline-block;
-    background-color: transparent;
+    background-color: #550d65c2;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -1085,6 +1086,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     background-color: #fffcf7;
     padding: 30px 22px;
     border: 1px solid #ddd;
+    margin-right: 5px;
 }
 .event-info i{
     color: #e48b15;
