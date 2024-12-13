@@ -2,7 +2,7 @@
     <div class="bottom-content-wrap row">
         <div class="col-sm-4">
             <div class="site-branding">
-                <a href="#"><img src="{{ asset('assets-frontend/img/logo.png') }}" alt="Brand" style="height: 86px;"></a>
+                <a href="#"><img src="{{ asset('assets-frontend/img/logo.png') }}" alt="Brand" style="height: 75px;"></a>
             </div>
         </div>
         <div class="col-sm-8 text-right">

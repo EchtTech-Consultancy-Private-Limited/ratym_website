@@ -110,7 +110,7 @@
                                 <h3>Social</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
-                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-arrow-right"></i></a>
                         </div>
                     </div><!-- /Causes-1 -->
                     <div class="col-md-3 xs-padding">
@@ -126,7 +126,7 @@
                                 <h3>Cultural​</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
-                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-arrow-right"></i></a>
                         </div>
                     </div><!-- /Causes-2 -->
                     <div class="col-md-3 xs-padding">
@@ -142,7 +142,7 @@
                                 <h3>Education</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
-                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-arrow-right"></i></a>
                         </div>
                     </div><!-- /Causes-3 -->
                     <div class="col-md-3 xs-padding">
@@ -158,7 +158,7 @@
                                 <h3>Woman Empowerment</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             </div>
-                            <a href="#" class="donate-btn">Donate Now<i class="ti-plus"></i></a>
+                            <a href="#" class="donate-btn">Donate Now<i class="ti-arrow-right"></i></a>
                         </div>
                     </div><!-- /Causes-3 -->
                 </div>
@@ -170,9 +170,9 @@
                 <div class="row">
                    <div class="col-md-4 xs-padding">
                         <div class="profile-wrap">
-                            <img class="profile" src="{{ asset('assets-frontend/img/profile.jpg')}}" alt="profile">
+                            <img class="profile" src="{{ asset('assets-frontend/img/profile.png')}}" alt="profile">
                             <h3>Jonathan Smith <span>CEO & Founder of Charitify.</span></h3>
-                            <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             <img src="{{ asset('assets-frontend/img/sign.png')}}" alt="sign">
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                             </div><!-- /Team-1 -->
                             <div class="col-md-6">
                                 <div class="team-details">
-                                   <img src="{{ asset('assets-frontend/img/team-2.jpg')}}" alt="team">
+                                   <img src="{{ asset('assets-frontend/img/team-2.png')}}" alt="team">
                                     <div class="hover">
                                         <h3>Angelina Rose <span>Certified Reader</span></h3>
                                     </div>
@@ -254,7 +254,7 @@
                             </div><!-- /Team-2 -->
                             <div class="col-md-6">
                                 <div class="team-details">
-                                    <img src="{{ asset('assets-frontend/img/team-3.jpg')}}" alt="team">
+                                    <img src="{{ asset('assets-frontend/img/team-2.png')}}" alt="team">
                                     <div class="hover">
                                         <h3>Taylor Swift <span>Event Creator</span></h3>
                                     </div>
@@ -262,7 +262,7 @@
                             </div><!-- /Team-3 -->
                             <div class="col-md-6">
                                 <div class="team-details">
-                                   <img src="{{ asset('assets-frontend/img/team-4.jpg')}}" alt="team">
+                                   <img src="{{ asset('assets-frontend/img/team-1.jpg')}}" alt="team">
                                     <div class="hover">
                                         <h3>Michel Brown <span>Internet Specialist</span></h3>
                                     </div>
@@ -351,7 +351,7 @@
                            <img src="{{ asset('assets-frontend/img/events-2.jpg')}}" alt="events">
                         </div>
                         <div class="event-details">
-                            <h3>Insure clean water to everyone in Africa.</h3>
+                            <h3>Insure clean water to everyone in Slums.</h3>
                             <div class="event-info">
                                 <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
                                 <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>

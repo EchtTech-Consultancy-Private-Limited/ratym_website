@@ -7,7 +7,8 @@
 <meta name="keywords" content="{{ $metaDetails->meta_keywords ?? 'NGO/Charity/Fundraising ' }}">
 <meta name="tag" content="{{ $metaDetails->meta_tag ?? 'NGO/Charity/Fundraising ' }}">
 <meta name="baseURL" content="{{ asset('/') }}">
-<link rel="shortcut icon" href="{{ asset('assets-nsg/images/favicon.png')}}" type="image/png" />
+<!-- <link rel="shortcut icon" href="{{ asset('assets-nsg/images/favicon.png')}}" type="image/png" /> -->
+<link rel="shortcut icon" href="assets-frontend/img/logo.png" type="image/png" />
 <title>@section('title')
         {{ config('app.name') }}
     @show
