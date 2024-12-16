@@ -100,7 +100,7 @@ ul{
     margin: 0;
 }
 p{
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 15px;
     margin-top: 4px;
 }
@@ -286,10 +286,10 @@ button{
     font-weight: 500;border-radius: 25px;
     
 }
-.default-btn:hover{
+/* .default-btn:hover{
     background-color: #e48b15;
     color: #fff;
-}
+} */
 .default-btn.btn_sm{
     line-height: 40px;
     padding: 0 15px;
@@ -665,7 +665,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .promo-content{
     padding: 40px 30px;
-    border-right: 1px solid #e48b1529;
+    /* border-right: 1px solid #e48b1529; */
 }
 .promo-content h3{
     font-size: 22px;
@@ -675,13 +675,16 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     margin-bottom: 15px;
 }
 .promo-content a{
-    color: #555;
+    color: #e48b15;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .promo-content a:hover{
     text-decoration: underline;
-    color: #e48b15;
+    color: #550d65;
+}
+.promo-content a:hover i{
+    text-decoration: unset;
 }
 .promo-section-2 .promo-content{padding: 0 30px;}
 .promo-section-2 .row .col-md-4:last-child > .promo-content{
@@ -1466,7 +1469,7 @@ span.date{
 .blog-post .blog-content .post-meta{
     font-weight: 500;
     font-size: 14px;
-    color: #282828;
+    color: #e48b15;
     letter-spacing: -0.2px
 }
 .blog-post .blog-content .post-meta:hover{
@@ -2075,9 +2078,18 @@ span.date{
 }
 
 .border-btn{
-    background-color: #fff;
+    background-color: #ffffff;
     color: #550d65;
-    margin-right: 5px;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
 }
 .causes-content {
     position: relative;
@@ -2119,7 +2131,119 @@ span.date{
     font-size: 12px;
    
 }
+.ti-arrow-right.read-more{
+    margin-left: 5px;
+    font-size: 11px;
+   
+}
 .bottom-header img:hover {
     /* height: 100px !important; */
     transform: scale(1.5);
 }
+
+.bottom-header .bottom-content-wrap.row .col-sm-8.text-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.promo-wrap .xs-padding {
+    position: relative; /* Required for positioning the pseudo-element */
+    border-right: 1px solid #ddd; /* Static right border */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.promo-wrap .xs-padding::before {
+    content: '';
+    position: absolute;
+    border-radius: 80px;
+    top: 0;
+    right: 0px;
+    width: 3px;
+    height: 102%;
+    background: linear-gradient(to bottom, #550d65, #e48b15 20px, transparent 20px); /* Line color with gradient effect */
+    animation: runBorderLine 3s linear infinite; /* Smooth animation */
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.promo-wrap .xs-padding:nth-child(1)::before {
+    animation-delay: 0s; /* No delay for the first box */
+}
+
+.promo-wrap .xs-padding:nth-child(2)::before {
+    animation-delay: 0.5s; /* 1-second delay for the second box */
+}
+
+.promo-wrap .xs-padding:nth-child(3)::before {
+    animation-delay: 1.5s; /* 2-second delay for the third box */
+}
+
+.promo-wrap .xs-padding:last-child::before {
+    display: none; /* Remove animation for the last box */
+}
+
+@keyframes runBorderLine {
+    0% {
+        transform: translateY(-100%); /* Start above the container */
+    }
+    100% {
+        transform: translateY(100%); /* End below the container */
+    }
+}
+
+
+.default-btn {
+    background-color: #550d65; /* Initial button color */
+    color: #fff; /* Text color */
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative; /* Required for positioning the pseudo-element */
+    overflow: hidden; /* Keep the background transition within the button */
+    text-align: center; /* Center text */
+    z-index: 1;
+}
+
+.default-btn::before, .border-btn::before {
+    content: '';
+    position: absolute;
+    border-radius: 25px;
+    top: 0;
+    left: -100%; /* Start off-screen to the left */
+    width: 100%;
+    height: 100%;
+    background-color: #e48b15; /* The background color that will slide */
+    transition: left 0.4s ease-in-out; /* Smooth transition */
+    z-index: -1; /* Make sure the background is behind the text */
+}
+
+.default-btn:hover::before, .border-btn:hover::before {
+    left: 0; /* Slide the background from left to right */
+}
+
+.default-btn:hover, .border-btn:hover {
+    color: #fff; /* Keep text color white */
+}
+
+/* On mouse out, the background will slide back to the right */
+.default-btn:not(:hover)::before, .border-btn:not(:hover)::before {
+    right: 100%; /* Slide background out to the right */
+}
+.col-md-3.xs-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.video-wrap .play a:hover{
+    transform: scale(1.2);
+    background-color: #550d65;
+}
+
+
