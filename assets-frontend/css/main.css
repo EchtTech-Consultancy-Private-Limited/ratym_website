@@ -138,7 +138,7 @@ button{
 }
 /* Helper Class */
 .padding{
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .no-padding{
     padding: 0;
@@ -736,6 +736,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     border-radius: 50%;
     font-weight: 600;
     font-size: 12px;
+    transition: all 0.5s;
 }
 .causes-thumb .progress .progress-bar span:before{
     width: 50px;
@@ -2089,6 +2090,7 @@ span.date{
     position: relative;
     overflow: hidden;
     text-align: center;
+    margin-right: 5px;
     z-index: 1;
 }
 .causes-content {
@@ -2241,7 +2243,7 @@ span.date{
     padding-left: 10px;
 }
 
-.video-wrap .play a:hover{
+.video-wrap .play a:hover, .causes-thumb .progress .progress-bar span:hover{
     transform: scale(1.2);
     background-color: #550d65;
 }
