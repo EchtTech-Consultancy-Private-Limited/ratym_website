@@ -283,7 +283,7 @@ button{
     padding: 0 25px;
     border-radius: 3px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 500;border-radius: 25px;
     
 }
 .default-btn:hover{
@@ -370,7 +370,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .header-height{ width: 100%; }
 /*Top Header*/
 .top-header{
-    background-color: #e48b15;
+    background-color: #350043;
     padding: 10px 0;
 }
 .top-content-wrap ul li{
@@ -1217,10 +1217,11 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     /* margin-bottom: 15px; */
 }
 .widget-content p{
-    color: #999;
+    color: #a19cc5;
+    font-size: 15px;
 }
 .widget-content h3{
-    color: #ddd;
+    color: #fff;
 }
 .widget-content .social-icon li{
     display: inline-block;
@@ -1234,9 +1235,10 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     color: #fff;
 }
 .widget-content .widget-link li a{
-    color: #999;
+    color: #a19cc5;
     margin-bottom: 16px;
     display: block;
+    font-size: 16px;
 }
 .widget-content .widget-link li a:hover{
     color: #e48b15;
@@ -1246,7 +1248,8 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     margin-bottom: 16px;
     display: block;
     font-family: "Jost", sans-serif;
-    color: #999;
+    color: #a19cc5;
+    font-size: 16px;
 }
 .widget-content .address li i{
     color: #e48b15;
@@ -2024,7 +2027,7 @@ span.date{
    ========================================================================== */
 .footer-section{
     display: block;
-    background-color: #e48b15;
+    background-color: #350043de;
     /* border-top: 1px solid #ffffff; */
     padding: 8px 0;
 }
@@ -2074,6 +2077,7 @@ span.date{
 .border-btn{
     background-color: #fff;
     color: #550d65;
+    margin-right: 5px;
 }
 .causes-content {
     position: relative;
@@ -2109,4 +2113,13 @@ span.date{
 }
 .footer-section .row {
     justify-content: center;
+}
+.ti-arrow-right.margin{
+    margin-left: 15px;
+    font-size: 12px;
+   
+}
+.bottom-header img:hover {
+    /* height: 100px !important; */
+    transform: scale(1.5);
 }

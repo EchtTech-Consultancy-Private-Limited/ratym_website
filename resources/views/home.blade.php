@@ -18,8 +18,8 @@
                             <h5 class="wow cssanimation fadeInBottom">Join Us Today</h5>
                             <h1 class="wow cssanimation leFadeInRight sequence">RATYM</h1>
                             <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
-                            <a href="#" class="border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
+                            <a href="#" class="border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us<i class="ti-arrow-right margin"></i></a>
+                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now<i class="ti-arrow-right margin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -32,8 +32,8 @@
                         <div class="slider-text">
                             <h1 class="wow cssanimation fadeInTop" data-wow-delay="1s" data-wow-duration="800ms">Together we  <br>can make a Difference</h1>
                             <p class="wow cssanimation fadeInBottom" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
-                            <a href="#" class=" border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
+                            <a href="#" class=" border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us<i class="ti-arrow-right margin"></i></a>
+                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now<i class="ti-arrow-right margin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -47,8 +47,8 @@
                             <h5 class="wow cssanimation fadeInBottom">Join Us Today</h5>
                             <h1 class="wow cssanimation lePushReleaseFrom sequence" data-wow-delay="1s">Give a little. Change a lot.</h1>
                             <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
-                            <a href="#" class="border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now</a>
+                            <a href="#" class="border-btn default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us<i class="ti-arrow-right margin"></i></a>
+                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet Now<i class="ti-arrow-right margin"></i></a>
                         </div>
                     </div>
                 </div>
