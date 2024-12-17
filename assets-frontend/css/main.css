@@ -2218,7 +2218,7 @@ span.date{
     position: absolute;
     border-radius: 25px;
     top: 0;
-    left: -100%; /* Start off-screen to the left */
+    left: -102%; /* Start off-screen to the left */
     width: 102%;
     height: 100%;
     background-color: #e48b15; /* The background color that will slide */
