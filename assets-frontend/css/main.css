@@ -1294,7 +1294,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-    min-height: 300px;
+    min-height: 385px;
     display: flex;
     align-items: center;
 }

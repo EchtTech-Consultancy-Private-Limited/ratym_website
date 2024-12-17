@@ -20,8 +20,8 @@
                             <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you
                                 may be the one who needs helping! <br>Forget what you can get and see what you can give.
                             </p>
-                            <a href="#" class="border-btn wow cssanimation fadeInBottom"
-                                data-wow-delay="0.8s">Join With Us<i class="ti-arrow-right margin"></i></a>
+                            <a href="#" class="border-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With
+                                Us<i class="ti-arrow-right margin"></i></a>
                             <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet
                                 Now<i class="ti-arrow-right margin"></i></a>
                         </div>
@@ -39,8 +39,8 @@
                             <p class="wow cssanimation fadeInBottom" data-wow-delay="1s">Help today because tomorrow you
                                 may be the one who needs helping! <br>Forget what you can get and see what you can give.
                             </p>
-                            <a href="#" class=" border-btn wow cssanimation fadeInBottom"
-                                data-wow-delay="0.8s">Join With Us<i class="ti-arrow-right margin"></i></a>
+                            <a href="#" class=" border-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join
+                                With Us<i class="ti-arrow-right margin"></i></a>
                             <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet
                                 Now<i class="ti-arrow-right margin"></i></a>
                         </div>
@@ -59,8 +59,8 @@
                             <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Help today because tomorrow you
                                 may be the one who needs helping! <br>Forget what you can get and see what you can give.
                             </p>
-                            <a href="#" class="border-btn wow cssanimation fadeInBottom"
-                                data-wow-delay="0.8s">Join With Us<i class="ti-arrow-right margin"></i></a>
+                            <a href="#" class="border-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With
+                                Us<i class="ti-arrow-right margin"></i></a>
                             <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet
                                 Now<i class="ti-arrow-right margin"></i></a>
                         </div>
@@ -207,17 +207,23 @@
                 <div class="about-wrap row">
                     <div class="col-md-6 xs-padding">
                         <img src="{{ asset('assets-frontend/img/our-mission.png')}}" alt="about-thumb">
-                        <h3>Our Mission</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s,</p>
-                        <a href="#" class="default-btn">Read More</a>
+                        <div class="mission-box">
+                            <h3>Our Mission</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s,</p>
+                            <a href="#" class="default-btn">Read More</a>
+                        </div>
                     </div>
                     <div class="col-md-6 xs-padding">
                         <img src="{{ asset('assets-frontend/img/our-vision.png')}}" alt="about-thumb">
-                        <h3>Our Vision</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s.</p>
-                        <a href="#" class="default-btn">Read More</a>
+                        <div class="mission-box">
+                            <h3>Our Vision</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s.</p>
+                            <a href="#" class="default-btn">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
