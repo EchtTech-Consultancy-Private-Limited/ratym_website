@@ -414,7 +414,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 #mainmenu li{
     position: relative;
-    padding-left: 30px;
+    padding-right: 30px;
     display: inline-block;
     text-align: left;
 }
@@ -2138,10 +2138,9 @@ span.date{
     font-size: 11px;
    
 }
-.bottom-header img:hover {
-    /* height: 100px !important; */
+/* .bottom-header img:hover {
     transform: scale(1.5);
-}
+} */
 
 .bottom-header .bottom-content-wrap.row .col-sm-8.text-right {
     display: flex;
@@ -2246,6 +2245,41 @@ span.date{
 .video-wrap .play a:hover, .causes-thumb .progress .progress-bar span:hover{
     transform: scale(1.2);
     background-color: #550d65;
+}
+.top-content-wrap.row .col-sm-8 {
+    padding: 0;
+}
+
+/* styling for nav bar */
+
+.ratym-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ratym-logo-container .right-child {
+    display: flex;
+    align-items: center;
+}
+.site-branding img {
+    transform: scale(2.9);
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0px;
+    position: absolute;
+    top: 32px;
+    left: 46.5%;
+    height: 70px;
+}
+.navbar-fixed-top .site-branding img {
+    transform: scale(3);
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0px;
+    position: absolute;
+    top: 30px;
+    left: 46.5%;
+    height: 25px;
 }
 
 
