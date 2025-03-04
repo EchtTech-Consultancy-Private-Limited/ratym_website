@@ -44,7 +44,7 @@ body{
     background-color: #fff;
     font-family: 'Jost', sans-serif;
     font-size: 17px;
-    line-height: 27px;
+    line-height: 20px;
     color: #555;
     letter-spacing: -0.2px;
     font-weight: 400;
@@ -100,8 +100,9 @@ ul{
     margin: 0;
 }
 p{
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 15px;
+    margin-top: 4px;
 }
 a{  font-family: "Jost",sans-serif;
 }
@@ -137,7 +138,7 @@ button{
 }
 /* Helper Class */
 .padding{
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .no-padding{
     padding: 0;
@@ -208,7 +209,7 @@ button{
     z-index: -1;
 }
 .bg-grey{
-    background-color: #f2f2f2;
+    background-color: #fafafa;
 }
 .bd-bottom{
     border-bottom: 1px solid #eaeaea;
@@ -275,19 +276,20 @@ button{
     margin: 5px;
 }
 .default-btn{
-    background-color: #f8b864;
+    background-color: #550d65;
     color: #fff;
     line-height: 45px;
     display: inline-block;
     padding: 0 25px;
     border-radius: 3px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 500;border-radius: 25px;
+    
 }
-.default-btn:hover{
-    background-color: #ffb451;
+/* .default-btn:hover{
+    background-color: #e48b15;
     color: #fff;
-}
+} */
 .default-btn.btn_sm{
     line-height: 40px;
     padding: 0 15px;
@@ -295,7 +297,7 @@ button{
 
 /*Section Heading Style*/
 .section-heading .heading-border{
-    border-top: 5px solid #f8b864;
+    border-top: 5px solid #e48b15;
     width: 50px;
     display: inline-block;
     margin-top: 0;
@@ -321,7 +323,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     overflow: hidden;
 }
 .circle:before{
-    background-color: #f8b864;
+    background-color: #550d65;
     content: '';
     height: 800px;
     width: 800px;
@@ -333,18 +335,18 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     z-index: -1;
 }
 .shape:after{
-    background-color: #f8b864;
+    background-color: #e48b15;
     content: '';
     width: 50%;
     height: 680px;
     position: absolute;
-    top: 330px;
+    top: 360px;
     right: -150px;
     border-radius: 100%;
-    -webkit-transform: skew(3deg,30deg);
-    -ms-transform: skew(3deg,30deg);
-    transform: skew(5deg,10deg);
-    opacity: 0.3;
+    -webkit-transform: skew(3deg, 30deg);
+    -ms-transform: skew(3deg, 30deg);
+    transform: skew(5deg, 10deg);
+    opacity: 0.1;
     z-index: -1;
 }
 
@@ -368,7 +370,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .header-height{ width: 100%; }
 /*Top Header*/
 .top-header{
-    background-color: #f8b864;
+    background-color: #350043;
     padding: 10px 0;
 }
 .top-content-wrap ul li{
@@ -392,7 +394,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     color: #fff;
     line-height: 25px;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
 }
 .top-content-wrap .right-info li:last-child{
     margin-right: 0;
@@ -412,7 +414,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 #mainmenu li{
     position: relative;
-    padding-left: 20px;
+    padding-left: 30px;
     display: inline-block;
     text-align: left;
 }
@@ -422,9 +424,12 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     padding: 30px 0;
     display: inline-block;
     font-size: 16px;
+    transition: unset;
+    height: 85px;
 }
 #mainmenu li a:hover{
-    color: #f8b864;
+    color: #550d65;
+    border-bottom: 5px solid #550d65;
 }
 /*Dropdown */
 #mainmenu li ul{
@@ -466,7 +471,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     transition: color 0.3s ease 0s, padding 0.3s ease 0s;
 }
 #mainmenu li > ul > li:hover a{
-    color: #f8b864;
+    color: #e48b15;
 }
 #mainmenu li > ul ul{
     background-color: #fff;
@@ -561,7 +566,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     display: inline-block!important;
 }
 .slider-text p {
-    color: #ddd;
+    color: #fff;
     font-size: 16px;
     margin-bottom: 15px;
 }
@@ -571,14 +576,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .nivo-caption {
     height: 100%;
     opacity: 1;
-    background: transparent;
+    background: #000000a1;
     overflow: visible;
 }
 
 /* nivo directionNav css */
 .nivo-directionNav a {
     font-size: 13px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgb(85 13 101);
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -660,7 +665,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .promo-content{
     padding: 40px 30px;
-    border-right: 1px dashed #ddd;
+    /* border-right: 1px solid #e48b1529; */
 }
 .promo-content h3{
     font-size: 22px;
@@ -670,13 +675,16 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     margin-bottom: 15px;
 }
 .promo-content a{
-    color: #555;
+    color: #e48b15;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .promo-content a:hover{
     text-decoration: underline;
-    color: #f8b864;
+    color: #550d65;
+}
+.promo-content a:hover i{
+    text-decoration: unset;
 }
 .promo-section-2 .promo-content{padding: 0 30px;}
 .promo-section-2 .row .col-md-4:last-child > .promo-content{
@@ -692,9 +700,12 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .causes-content img{
     width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
-.causes-thumb{
+.causes-thumb {
     position: relative;
+    height: 175px;
 }
 .causes-thumb img:hover{
     opacity: 0.8;
@@ -704,19 +715,19 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 10px;
+    height: 6px;
     border-radius: 0;
     background-color: transparent;
     overflow: inherit;
 }
 .causes-thumb .progress .progress-bar{
-    background-color: #f8b864;
+    background-color: #e48b15;
     position: relative;
 }
 .causes-thumb .progress .progress-bar span{
     position: absolute;
     display: block;
-    background-color: #f8b864;
+    background-color: #550d65;
     right: -2px;
     top: -10px;
     height: 30px;
@@ -725,6 +736,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     border-radius: 50%;
     font-weight: 600;
     font-size: 12px;
+    transition: all 0.5s;
 }
 .causes-thumb .progress .progress-bar span:before{
     width: 50px;
@@ -734,12 +746,12 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     left: -10px;
     top: -10px;
     border-radius: 50%;
-    border: 10px solid rgba(248, 184, 100, 0.8);
+    border: 10px solid #e48b158c;
 }
 .causes-details{
     background-color: #fff;
-    padding: 40px 30px;
-    border: 1px dashed #ccc;
+    padding: 65px 30px;
+    /* border: 1px dashed #ccc; */
     padding-top: 25px;
 }
 .causes-details h3{
@@ -748,10 +760,10 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .causes-content .donate-btn{
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: rgba(248, 184, 100, 0.8);
-    color: #fff;
+    bottom: 10px;
+    left: 12%;
+    background-color: rgb(85 13 101);
+    color: #ffffff;
     font-size: 14px;
     font-family: "Jost", sans-serif;
     font-weight: 500;
@@ -759,13 +771,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     border-radius: 3px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 .causes-content .donate-btn i{
     margin-left: 5px;
     font-size: 12px;
 }
 .causes-content .donate-btn:hover{
-    background-color: #f8b864;
+    background-color: #e48b15;
     transition: all 0.2s ease-in-out;
 }
 .donation-box p{
@@ -773,14 +786,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     margin-right: 10px;
 }
 .donation-box i{
-    color: #f8b864;
+    color: #e48b15;
     margin-right: 5px;
 }
 .causes-content .read-more{
     color: #999;
 }
 .causes-content .read-more:hover{
-    color: #f8b864;
+    color: #e48b15;
     text-decoration: underline;
 }
 
@@ -797,6 +810,9 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .about-wrap img{
     width: 100%;
     margin-bottom: 15px;
+    background-color: #e48b151c;
+    padding: 20px;
+    border: 1px solid #ffdfb5;
 }
 .about-wrap img:hover{
     opacity: 0.8;
@@ -805,7 +821,8 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     background-color: #fafafa;
     text-align: center;
     padding: 30px;
-    border: 2px dashed #ddd;
+    border: 2px solid #ddd;
+    height: 435px;
 }
 .profile-wrap h3{
     font-size: 22px;
@@ -847,7 +864,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     padding: 150px 0;
 }
 .campaigns-wrap h4{
-    background-color: rgba(248, 184, 100, 0.8);
+    background-color: rgb(255 255 255 / 29%);
     display: inline-block;
     padding: 10px 15px;
     border-radius: 5px;
@@ -873,14 +890,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     margin-bottom: 40px;
 }
 .campaigns-wrap .progress .progress-bar{
-    background-color: #f8b864;
+    background-color: #e38b15;
     position: relative;
     border-radius: 30px;
 }
 .campaigns-wrap .progress .progress-bar span{
     position: absolute;
     display: block;
-    background-color: #f8b864;
+    background-color: #550d65;
     right: -2px;
     top: -10px;
     height: 30px;
@@ -898,7 +915,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     left: -10px;
     top: -10px;
     border-radius: 50%;
-    border: 10px solid rgba(248, 184, 100, 0.8);
+    border: 10px solid #e48b158c;
 }
 
 .campaigns-wrap .donation-box h3{
@@ -936,7 +953,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .video-wrap .play a{
     color: #fff;
     display: inline-block;
-    background-color: transparent;
+    background-color: #550d65c2;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -971,7 +988,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     width: 100%;
 }
 .team-details h3{
-    color: #f8b864;
+    color: #e48b15;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
@@ -1016,7 +1033,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     line-height: 35px;
 }
 .check-list i{
-    color: #f8b864;
+    color: #e48b15;
     margin-right: 10px;
 }
 
@@ -1046,7 +1063,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .counters .counter-content h3{
 	font-size: 48px;
 	margin: 10px 0;
-	color: #f8b864;
+	color: #e48b15;
     font-weight: 600;
 }
 .counters .counter-content h4{
@@ -1070,12 +1087,13 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     overflow: hidden;
 }
 .event-details{
-    background-color: #fafafa;
-    padding: 30px 15px;
-    border: 1px dashed #ddd;
+    background-color: #fffcf7;
+    padding: 30px 22px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
 }
 .event-info i{
-    color: #f8b864;
+    color: #e48b15;
     margin-right: 10px;
 }
 .event-info p{
@@ -1090,28 +1108,36 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 
 /*Owl Navigation*/
-.owl-nav{}
+
 .owl-nav div{
-    background-color: #f8b864;
+    background-color: #550d65;
     color: #fff;
     border-radius: 2px;
     width: 40px;
     height: 40px;
     font-size: 16px;
     text-align: center;
-    line-height: 40px;
+    line-height: 43px;
     position: absolute;
-    left: -40px;
+    left: -44px;
     top: calc(50% - 25px);
     transition: all 0.5s ease-in-out;
 }
 .owl-nav div:hover{
     opacity: 1;
     transition: all 0.5s ease-in-out;
+    background-color: #77188c;
 }
 .owl-nav div.owl-next{
     left: auto;
-    right: -40px;
+    right: -44px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+.owl-nav div.owl-prev {
+    right: -44px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
 }
 /* ==========================================================================
    11.0 Testimonial Section
@@ -1122,6 +1148,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     padding: 30px;
     border-radius: 5px;
     margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .testi-footer img{
     width:70px!important;
@@ -1157,7 +1184,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     transition: all 0.5s ease-in-out;
 }
 .testimonial-carousel .owl-dots .owl-dot.active{
-    background-color: #f8b864;
+    background-color: #e48b15;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
@@ -1170,7 +1197,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     padding: 30px 0;
 }
 .sponsor-section .sponsor-item img{
-    width: 100%;
+    width: unset !important;
     padding: 20px;
     opacity: 0.8;
 }
@@ -1182,8 +1209,8 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    13.0 Widget Section
    ========================================================================== */
 .widget-section{
-    background-color: #222;
-    background-image: url(../img/map.png);
+    background-color: #350043;
+    /* background-image: url(../img/map.png); */
     background-position: right 150px center;
     background-repeat: no-repeat;
     width: 100%;
@@ -1191,13 +1218,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .widget-content{}
 .widget-content img{
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 .widget-content p{
-    color: #999;
+    color: #a19cc5;
+    font-size: 15px;
 }
 .widget-content h3{
-    color: #ddd;
+    color: #fff;
 }
 .widget-content .social-icon li{
     display: inline-block;
@@ -1205,28 +1233,30 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .widget-content .social-icon li a{
     display: inline-block;
-    color: #f8b864;
+    color: #e48b15;
 }
 .widget-content .social-icon li a:hover{
     color: #fff;
 }
 .widget-content .widget-link li a{
-    color: #999;
+    color: #a19cc5;
     margin-bottom: 16px;
     display: block;
+    font-size: 16px;
 }
 .widget-content .widget-link li a:hover{
-    color: #f8b864;
+    color: #e48b15;
     text-decoration: underline;
 }
 .widget-content .address li{
     margin-bottom: 16px;
     display: block;
     font-family: "Jost", sans-serif;
-    color: #999;
+    color: #a19cc5;
+    font-size: 16px;
 }
 .widget-content .address li i{
-    color: #f8b864;
+    color: #e48b15;
     margin-right: 10px;
 }
 /* ==========================================================================
@@ -1249,7 +1279,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     display: inline-block;
 }
 .hero-content h4{
-    color: #f8b864;
+    color: #e48b15;
 }
 .hero-content p{
     color: #ddd;
@@ -1264,7 +1294,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-    min-height: 300px;
+    min-height: 385px;
     display: flex;
     align-items: center;
 }
@@ -1294,7 +1324,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     text-decoration: underline;
 }
 .breadcrumb .active{
-    color: #f8b864;
+    color: #e48b15;
     font-weight: 600;
     font-family: "Jost",sans-serif;
     text-transform: uppercase;
@@ -1349,7 +1379,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     cursor: pointer;
 }
 .gallery-filter li.active{
-    background-color: #f8b864;
+    background-color: #e48b15;
     color: #fff;
 }
 .gallery-wrap{
@@ -1376,7 +1406,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     transition: all 0.3s ease-in-out;
 }
 .gallery-wrap .hover a{
-    background-color: #f8b864;
+    background-color: #e48b15;
     color: #fff;
     height: 40px;
     width: 40px;
@@ -1397,7 +1427,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    ========================================================================== */
 .blog-section{}
 .blog-items{
-    border-right: 1px solid #ddd;
+    /* border-right: 1px solid #ddd; */
     padding-right: 20px;
 }
 .left-sidebar .blog-items{
@@ -1440,7 +1470,7 @@ span.date{
 .blog-post .blog-content .post-meta{
     font-weight: 500;
     font-size: 14px;
-    color: #282828;
+    color: #e48b15;
     letter-spacing: -0.2px
 }
 .blog-post .blog-content .post-meta:hover{
@@ -1929,8 +1959,8 @@ span.date{
     box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.20);
 }
 .pagination_wrap li a.active{
-    background-color: #f8b864;
-    border: 1px solid #f8b864;
+    background-color: #e48b15;
+    border: 1px solid #e48b15;
     color: #fff;
 }
 
@@ -2001,13 +2031,13 @@ span.date{
    ========================================================================== */
 .footer-section{
     display: block;
-    background-color: #222;
-    border-top: 1px solid #333;
-    padding: 30px 0;
+    background-color: #350043de;
+    /* border-top: 1px solid #ffffff; */
+    padding: 8px 0;
 }
 .footer-section .copyright{
-    font-size: 15px;
-    color: #ddd;
+    font-size: 13px;
+    color: #f0f0f0;
 }  
 .footer-social{
     display: block;
@@ -2022,14 +2052,14 @@ span.date{
     margin-left: 20px;
 }
 .footer-social li a:hover{
-    color: #f8b864;
+    color: #e48b15;
 }
 
 /* ==========================================================================
    22.0 Scroll To Top
    ========================================================================== */
 #scroll-to-top{
-    background-color: #f8b864;
+    background-color: #e48b15;
     display: none;
     width: 45px;
     height: 45px;
@@ -2044,6 +2074,178 @@ span.date{
     z-index: 999;
 }
 #scroll-to-top:hover{
-    background-color: #ffb451;
+    background-color: #550d65;
     color: #fff;
 }
+
+.border-btn{
+    background-color: #ffffff;
+    color: #550d65;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 5px;
+    z-index: 1;
+}
+.causes-content {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.causes-content:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#event-carousel .owl-stage-outer .owl-item {
+    margin: 0 !important;
+    width: 560px !important;
+}
+.footer-logo {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 2px;
+}
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+.owl-carousel .owl-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ti-location-pin:before {
+    content: "\e693";
+    font-size: 14px;
+}
+.footer-section .row {
+    justify-content: center;
+}
+.ti-arrow-right.margin{
+    margin-left: 15px;
+    font-size: 12px;
+   
+}
+.ti-arrow-right.read-more{
+    margin-left: 5px;
+    font-size: 11px;
+   
+}
+.bottom-header img:hover {
+    /* height: 100px !important; */
+    transform: scale(1.5);
+}
+
+.bottom-header .bottom-content-wrap.row .col-sm-8.text-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.promo-wrap .xs-padding {
+    position: relative; /* Required for positioning the pseudo-element */
+    border-right: 1px solid #ddd; /* Static right border */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.promo-wrap .xs-padding::before {
+    content: '';
+    position: absolute;
+    border-radius: 80px;
+    top: 0;
+    right: 0px;
+    width: 3px;
+    height: 102%;
+    background: linear-gradient(to bottom, #550d65, #e48b15 20px, transparent 20px); /* Line color with gradient effect */
+    animation: runBorderLine 3s linear infinite; /* Smooth animation */
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.promo-wrap .xs-padding:nth-child(1)::before {
+    animation-delay: 0s; /* No delay for the first box */
+}
+
+.promo-wrap .xs-padding:nth-child(2)::before {
+    animation-delay: 0.5s; /* 1-second delay for the second box */
+}
+
+.promo-wrap .xs-padding:nth-child(3)::before {
+    animation-delay: 1.5s; /* 2-second delay for the third box */
+}
+
+.promo-wrap .xs-padding:last-child::before {
+    display: none; /* Remove animation for the last box */
+}
+
+@keyframes runBorderLine {
+    0% {
+        transform: translateY(-100%); /* Start above the container */
+    }
+    100% {
+        transform: translateY(100%); /* End below the container */
+    }
+}
+
+
+.default-btn {
+    background-color: #550d65; /* Initial button color */
+    color: #fff; /* Text color */
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative; /* Required for positioning the pseudo-element */
+    overflow: hidden; /* Keep the background transition within the button */
+    text-align: center; /* Center text */
+    z-index: 1;
+}
+
+.default-btn::before, .border-btn::before {
+    content: '';
+    position: absolute;
+    border-radius: 25px;
+    top: 0;
+    left: -102%; /* Start off-screen to the left */
+    width: 102%;
+    height: 100%;
+    background-color: #e48b15; /* The background color that will slide */
+    transition: left 0.4s ease-in-out; /* Smooth transition */
+    z-index: -1; /* Make sure the background is behind the text */
+}
+
+.default-btn:hover::before, .border-btn:hover::before {
+    left: 0; /* Slide the background from left to right */
+}
+
+.default-btn:hover, .border-btn:hover {
+    color: #fff; /* Keep text color white */
+}
+
+/* On mouse out, the background will slide back to the right */
+.default-btn:not(:hover)::before, .border-btn:not(:hover)::before {
+    right: 100%; /* Slide background out to the right */
+}
+.col-md-3.xs-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.video-wrap .play a:hover, .causes-thumb .progress .progress-bar span:hover{
+    transform: scale(1.2);
+    background-color: #550d65;
+}
+
+
