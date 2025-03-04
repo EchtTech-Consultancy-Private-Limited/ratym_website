@@ -22,7 +22,7 @@
                             </p>
                             <a href="#" class="border-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With
                                 Us<i class="ti-arrow-right margin"></i></a>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet
+                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donate
                                 Now<i class="ti-arrow-right margin"></i></a>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                             </p>
                             <a href="#" class=" border-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join
                                 With Us<i class="ti-arrow-right margin"></i></a>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet
+                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donate
                                 Now<i class="ti-arrow-right margin"></i></a>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                             </p>
                             <a href="#" class="border-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With
                                 Us<i class="ti-arrow-right margin"></i></a>
-                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donet
+                            <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Donate
                                 Now<i class="ti-arrow-right margin"></i></a>
                         </div>
                     </div>
