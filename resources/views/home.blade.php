@@ -6,9 +6,9 @@
 <section class="slider-section">
     <div class="slider-wrapper">
         <div id="main-slider" class="nivoSlider">
-            <img src="{{ asset('assets-frontend/img/slider-1.png')}}" alt="" title="#slider-caption-1" />
-            <img src="{{ asset('assets-frontend/img/slider-2.png')}}" alt="" title="#slider-caption-2" />
-            <img src="{{ asset('assets-frontend/img/slider-3.png')}}" alt="" title="#slider-caption-3" />
+            <img src="{{ asset('assets-frontend/img/banner 1.jpg')}}" alt="" title="#slider-caption-1" />
+            <img src="{{ asset('assets-frontend/img/banner 2.jpg')}}" alt="" title="#slider-caption-2" />
+            <img src="{{ asset('assets-frontend/img/banner 3.jpg')}}" alt="" title="#slider-caption-3" />
         </div><!-- /#main-slider -->
         <div id="slider-caption-1" class="nivo-html-caption slider-caption">
             <div class="display-table">
