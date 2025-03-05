@@ -40,7 +40,6 @@ use App\Http\Controllers\CMSControllers\Api\HeaderRightLogoAPIController;
     Route::middleware(['auth','prevent-back-history','logs','EnsureTokenIsValid'])->group(function () {
 
         Artisan::call('cache:clear');
-        Artisan::call('storage:link');
         Artisan::call('view:clear');
         Artisan::call('route:clear');
         Artisan::call('config:clear');
