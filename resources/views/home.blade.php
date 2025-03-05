@@ -212,7 +212,7 @@
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has
                                 been the industry's standard dummy text ever since the 1500s,</p>
-                            <a href="#" class="default-btn">Read More</a>
+                            <a href="#" class="default-btn read-more">Read More</a>
                         </div>
                     </div>
                     <div class="col-md-6 xs-padding">
@@ -222,7 +222,7 @@
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has
                                 been the industry's standard dummy text ever since the 1500s.</p>
-                            <a href="#" class="default-btn">Read More</a>
+                            <a href="#" class="default-btn read-more">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -383,7 +383,7 @@
                         <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
                     </div>
                     <p>Help today because tomorrow you may be the one who needs more helping!</p>
-                    <a href="#" class="default-btn">Read More</a>
+                    <a href="#" class="default-btn read-more">Read More</a>
                 </div>
             </div><!-- Event-1 -->
             <div class="events-item">
@@ -397,7 +397,7 @@
                         <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
                     </div>
                     <p>Help today because tomorrow you may be the one who needs more helping!</p>
-                    <a href="#" class="default-btn">Read More</a>
+                    <a href="#" class="default-btn read-more">Read More</a>
                 </div>
             </div><!-- Event-2 -->
             <div class="events-item">
@@ -411,7 +411,7 @@
                         <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
                     </div>
                     <p>Help today because tomorrow you may be the one who needs more helping!</p>
-                    <a href="#" class="default-btn">Read More</a>
+                    <a href="#" class="default-btn read-more">Read More</a>
                 </div>
             </div><!-- Event-3 -->
         </div>

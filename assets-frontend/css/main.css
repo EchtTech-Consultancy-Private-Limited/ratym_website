@@ -2211,6 +2211,12 @@ span.date{
     text-align: center; /* Center text */
     z-index: 1;
 }
+a.default-btn.read-more {
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+}
 
 .default-btn::before, .border-btn::before {
     content: '';
